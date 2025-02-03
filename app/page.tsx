@@ -1,10 +1,12 @@
 import Image from "next/image";
 import { GlobeAltIcon } from '@heroicons/react/24/outline';
+import {NavigationMenuDemo} from "@/app/ui/navigationBar";
 
 export default function Home() {
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <header className="row-start-1 flex items-center gap-4">
+      <NavigationMenuDemo />
       <GlobeAltIcon className="h-12 w-12 rotate-[15deg]" />
         <h1 className="text-2xl font-bold">Welcome to Hire Mate</h1>
       </header>
