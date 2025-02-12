@@ -1,4 +1,5 @@
 import Image from "next/image";
+import "tailwindcss";
 import { GlobeAltIcon } from '@heroicons/react/24/outline';
 import {NavigationMenuDemo} from "@/app/ui/navigationBar";
 
